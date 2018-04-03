@@ -1,0 +1,146 @@
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
+}
+
+h1,
+h4 {
+  font-weight: bold;
+}
+
+/*960px site container*/
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Company Header */
+
+/*Header container*/
+.company {
+  background-color: black;
+  color: white;
+}
+
+/*Create header flex container*/
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: .66rem 0 .66rem 0.5rem;
+}
+
+/*Logo*/
+.company img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+/* Main Banner */
+
+/*Photo banner*/
+.main-banner {
+  background: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+/*Headline box*/
+.headline {
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+  padding: 2rem 3rem;
+  background-color: black;
+  color: white;
+}
+
+.headline h1 {
+  margin: 0.25rem 0;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+/* Navigation Bar */
+
+/*Nav strip*/
+nav {
+  background-color: firebrick;
+  color: white;
+}
+
+/*Nav list flex container*/
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+
+/*Mobile nav menu*/
+.mobile-nav {
+  display: none;
+}
+
+/* Products and Business Information Section */
+
+.products,
+.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.product {
+  width: 30%;
+}
+
+/*Product image flex container*/
+.product-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  padding: 2rem 0;
+  border: 4px solid black;
+}
+
+.product-image img {
+  max-width: 8rem;
+}
+
+/*Image description strip*/
+.description {
+  display: block;
+  padding: 0.5rem;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.info {
+  width: 35%;
+}
+
+.info .title {
+  display: block;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+}
+
+/* Footer */
+
+footer {
+  padding: 5rem 0;
+  margin-top: 4rem;
+  background-color: black;
+  color: white;
+}
